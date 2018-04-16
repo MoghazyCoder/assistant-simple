@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
+body
 body {
+  /* background-image: url("favicon.ico"); */
   font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -245,7 +247,7 @@ input:-moz-placeholder {
   opacity: 0;
 }
 
-#payload-column {
+/* #payload-column {
   font-family: Monaco, monospace;
   font-size: 0.75rem;
   letter-spacing: 0;
@@ -257,15 +259,16 @@ input:-moz-placeholder {
   width: 45%;
   max-width: 32.0625rem;
   min-width: 29.6875rem;
-}
+} */
+
 
 #payload-column.full {
-  width: 100%;
+  width: 0%;
   max-width: none;
   min-width: initial;
 }
 
-#payload-column .header-text, #payload-column #payload-initial-message {
+/* #payload-column .header-text, #payload-column #payload-initial-message {
   font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.125rem;
   color: #9E9E9E;
@@ -273,7 +276,7 @@ input:-moz-placeholder {
   padding: 0.5rem;
   padding-left: 2.5rem;
   background: #383D3E;
-}
+} */
 
 .hide {
   display: none;

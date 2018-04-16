@@ -4,12 +4,12 @@ declared-services:
     label: conversation
     plan: free
 applications:
-- name: watson-assistant-simple
+- name: chat-nawwar
   command: npm start
   path: .
   memory: 256M
   instances: 1
   services:
-  - my-watson-assistant-service
+  - my-watson-assistant-service2
   env:
     NPM_CONFIG_PRODUCTION: false
